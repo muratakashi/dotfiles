@@ -16,7 +16,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'tomasr/molokai'
 " Plugin 'nsf/gocode', {'rtp': 'vim/'}
-Plugin 'fatih/vim-go'
+" Plugin 'fatih/vim-go'
+Plugin 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 call vundle#end()
 
 "
