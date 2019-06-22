@@ -4,8 +4,8 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 alias python=python3
 
 #Golang
-export GOPATH=$(go env GOPATH)
-export PATH=$PATH:$(go env GOPATH)/bin
+# export GOPATH=$(go env GOPATH)
+# export PATH=$PATH:$(go env GOPATH)/bin
 
 #Vim
 export PATH="/usr/local/bin:$PATH"

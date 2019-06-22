@@ -15,9 +15,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'tomasr/molokai'
-" Plugin 'nsf/gocode', {'rtp': 'vim/'}
-" Plugin 'fatih/vim-go'
-Plugin 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plugin 'fatih/vim-go'
 call vundle#end()
 
 "
@@ -35,6 +33,8 @@ set laststatus=2 " エディタウィンドウの末尾から2行目にステー
 set smartcase    " 小文字のみで検索したときに大文字小文字を無視する
 set hlsearch     " 検索結果をハイライト表示する
 set clipboard=unnamed
+set t_Co=256     "256色を有効にする
+set cursorline   "カーソル行の強調表示
 
 " escで検索結果ハイライトを消す
 nnoremap <Esc><Esc> :<C-u>set nohlsearch<Return>
